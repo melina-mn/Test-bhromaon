@@ -69,6 +69,53 @@
         }
     }
 }
+@media screen and (max-width: 768px){
+    .one{
+        width: 100%;
+        &__title{
+            font-size: 28px;
+        }
+        &__prgh, &__secprgh{
+            font-size: 13px;
+        }
+        &__btn{
+            width: 180px;
+            height: 60px;
+            font-size: 15px;
+        }
+        &__img__up{
+            height: 180px;
+        }
+        &__img__down{
+            height: 180px;
+        }
+    }
+}
+@media screen and (max-width: 320px){
+    .one{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        &__title{
+            font-size: 25px;
+        }
+        &__prgh, &__secprgh{
+            font-size: 12px;
+        }
+        &__btn{
+            width: 150px;
+            height: 50px;
+            font-size: 12px;
+        }
+        &__img__up{
+            height: 65px;
+        }
+        &__img__down{
+            height: 65px;
+        }
+    }
+}
+// secsection
 
 .two{
     max-width: 1773px;
@@ -105,6 +152,8 @@ svg{
     min-height: 99px;
     width: 100%;
 }
+
+// third sec
 
 .three{
     max-width: 1770px;
