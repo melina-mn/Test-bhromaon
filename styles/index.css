@@ -316,6 +316,9 @@ a {
   text-decoration: none;
   color: #FFF;
 }
+a:hover {
+  color: #1d2754;
+}
 
 body {
   max-width: 1800px;

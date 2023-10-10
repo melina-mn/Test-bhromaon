@@ -1,31 +1,4 @@
-// <section class="one">
-// <div class="one__left">
-//     <h1 class="one__title">
-//         Why Choose Us
-//     </h1>
-//     <p class="one__prgh">
-//         Tion and dislike men 
-//         who are so beguiled 
-//         and demoralized by 
-//         desire by the charms 
-//         of pleasure of the 
-//         moment, so blinded by 
-//         desire, that they cannot foresee 
-//     </p>
-//     <p class="one__secprgh">
-//         Ddislike men who are so beguiled 
-//         and demoralized by the charms of 
-//         pleasure of the moment, so blinded 
-//         by desire, that.
-//     </p>
-//     <button class="one__btn">
-//         Explore Places 
-//     </button>
-// </div>
-// <div>
-//     <img src="images/Image1.png" alt="">
-// </div>
-// </section>
+
 .one{
     max-width: 1770px;
     width: 100%;
@@ -77,14 +50,7 @@
             letter-spacing: 5px;
         }
     }
-    // <div class="one__img">
-        // <div class="one__img__one">
-        //      <img class="one__img__up" src="images/Image1.png" alt="">
-        // </div>
-        // <div class="one__img__two">
-        //       <img class="one__img__down" src="images/Image (4).png" alt="">
-        // </div>
-    // </div>
+
     &__img{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
