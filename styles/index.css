@@ -396,8 +396,8 @@ svg {
   cursor: pointer;
 }
 .three__btn:hover {
-  color: #293b8c;
-  letter-spacing: 5px;
+  color: #ffffff;
+  letter-spacing: 3px;
 }
 .three__btn:focus {
   background-color: #293b8c;
@@ -519,8 +519,8 @@ svg {
   cursor: pointer;
 }
 .four__btn:hover {
-  color: #293b8c;
-  letter-spacing: 5px;
+  color: #ffffff;
+  letter-spacing: 3px;
 }
 .four__btn:focus {
   background-color: #293b8c;
