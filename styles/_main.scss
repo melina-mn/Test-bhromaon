@@ -66,3 +66,45 @@
         }
     }
 }
+
+// SEC SECTION
+
+//<section class="two">
+//   <div class="two__icon">
+//       <i class="fa-solid fa-magnifying-glass" style="color: #5474fd;"><p class="two__txt">Search Places</p></i>
+//       <i class="fa-regular fa-circle-check" style="color: #ff6363;"><p class="two__txt">Select Places</p></i>
+//       <i class="fa-regular fa-thumbs-up" style="color: #00a2ff;"><p class="two__txt">Book & Enjoy</p></i>
+//   </div>
+//</section>
+.two{
+    max-width: 1773px;
+    width: 100%;
+    min-height: 340px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    &__icon{
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 1773px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    &__txt{
+        color: #E8E8E8;
+        text-align: center;
+        font-family: 'Aleo', serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 72.222% */
+    }
+}
+svg{
+    max-width: 777px;
+    min-height: 99px;
+    width: 100%;
+}
