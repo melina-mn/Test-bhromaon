@@ -52,7 +52,7 @@
   cursor: pointer;
 }
 .one__btn:hover {
-  color: #293b8c;
+  color: #FFF;
   letter-spacing: 5px;
 }
 .one__btn:focus {
@@ -282,6 +282,40 @@ svg {
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .two {
+    width: 100%;
+  }
+  .two__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 15px;
+  }
+  .two__txt {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .two {
+    width: 100%;
+  }
+  .two__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 10px;
+  }
+  .two__txt {
+    font-size: 12px;
+  }
+}
 .three {
   max-width: 1770px;
   width: 100%;

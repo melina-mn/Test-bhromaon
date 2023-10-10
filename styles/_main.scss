@@ -46,7 +46,7 @@
         background-color: #5474FD;
         cursor: pointer;
         &:hover{
-            color: #293b8c;
+            color: #FFF;
             letter-spacing: 5px;
         }
         &:focus{
@@ -152,7 +152,32 @@ svg{
     min-height: 99px;
     width: 100%;
 }
-
+@media screen and (max-width: 768px){
+    .two{
+        width: 100%;
+        &__icon{
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+        }
+        &__txt{
+            font-size: 20px;
+        }
+    }
+}
+@media screen and (max-width: 320px){
+    .two{
+        width: 100%;
+        &__icon{
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+        }
+        &__txt{
+            font-size: 12px;
+        }
+    }
+}
 // third sec
 
 .three{
