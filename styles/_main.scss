@@ -67,15 +67,6 @@
     }
 }
 
-// SEC SECTION
-
-//<section class="two">
-//   <div class="two__icon">
-//       <i class="fa-solid fa-magnifying-glass" style="color: #5474fd;"><p class="two__txt">Search Places</p></i>
-//       <i class="fa-regular fa-circle-check" style="color: #ff6363;"><p class="two__txt">Select Places</p></i>
-//       <i class="fa-regular fa-thumbs-up" style="color: #00a2ff;"><p class="two__txt">Book & Enjoy</p></i>
-//   </div>
-//</section>
 .two{
     max-width: 1773px;
     width: 100%;
@@ -104,7 +95,84 @@
     }
 }
 svg{
-    max-width: 777px;
+    max-width: 1773px;
     min-height: 99px;
     width: 100%;
+}
+// <section class="three">
+//   <div class="three__box">
+//       <h4 class="three__spain">
+//       <h2 class="three__title">
+//       <p class="three__prgh">
+//     <button class="three__btn">
+
+.three{
+    max-width: 1770px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(../images/Rectangle\ 414\ 45.png);
+    
+    &__box{
+        background-color: #232323;
+        opacity: 0.9;
+        width: 543px;
+        height: 374px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        margin-left: 10%;
+        padding-left: 2%;
+    }
+    &__spain{
+        color: #E8E8E8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 130% */
+        letter-spacing: 1.5px;
+    }
+    &__title{
+        color: #FFF;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 130% */
+        text-transform: uppercase;
+    }
+    &__prgh{
+        max-width: 508px;
+        width: 100%;
+        color: #E8E8E8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    &__btn{
+        color: #FFF;
+        font-family: 'Aleo', serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        width: 228px;
+        height: 63px;
+        background-color: rgb(84, 116, 253,);
+        opacity: 1;
+        margin-bottom: 20px;
+        cursor: pointer;
+        &:hover{
+            color: #293b8c;
+            letter-spacing: 5px;
+        }
+    }
 }

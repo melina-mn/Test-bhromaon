@@ -219,9 +219,94 @@
 }
 
 svg {
-  max-width: 777px;
+  max-width: 1773px;
   min-height: 99px;
   width: 100%;
+}
+
+.three {
+  max-width: 1770px;
+  width: 100%;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url(../images/Rectangle\ 414\ 45.png);
+}
+.three__box {
+  background-color: #232323;
+  opacity: 0.9;
+  width: 543px;
+  height: 374px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10%;
+  padding-left: 2%;
+}
+.three__spain {
+  color: #E8E8E8;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  letter-spacing: 1.5px;
+}
+.three__title {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  text-transform: uppercase;
+}
+.three__prgh {
+  max-width: 508px;
+  width: 100%;
+  color: #E8E8E8;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.three__btn {
+  color: #FFF;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  width: 228px;
+  height: 63px;
+  background-color: rgb(84, 116, 253);
+  opacity: 1;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.three__btn:hover {
+  color: #293b8c;
+  letter-spacing: 5px;
 }
 
 .landing {
