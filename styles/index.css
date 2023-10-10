@@ -656,6 +656,31 @@ svg {
           animation-play-state: paused;
 }
 
+@media screen and (max-width: 768px) {
+  .landing {
+    max-width: 768px;
+    width: 100%;
+    text-align: center;
+  }
+  .landing__title {
+    font-size: 20px;
+  }
+  .landing__prgh {
+    font-size: 15px;
+  }
+  .landing__form__searchbar {
+    font-size: 10px;
+    width: 250px;
+  }
+  .landing__form__searchbtn {
+    width: 120px;
+    font-size: 15px;
+  }
+  .landing__form__searchbtn:hover {
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+}
 .bar {
   display: -webkit-box;
   display: -ms-flexbox;

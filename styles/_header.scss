@@ -100,3 +100,29 @@
  transition:0.3s;
  animation-play-state: paused;
 }
+
+@media screen and (max-width:768px) {
+    .landing{
+        max-width: 768px;
+        width: 100%;
+        text-align: center;
+        &__title{
+            font-size: 20px;
+        }
+        &__prgh{
+            font-size: 15px;
+        }
+        &__form__searchbar{
+            font-size: 10px;
+            width: 250px;
+        }
+        &__form__searchbtn{
+            width: 120px;
+            font-size: 15px;
+            &:hover{
+                font-size: 15px;
+                letter-spacing: 0;
+            }
+        }
+    }
+}
