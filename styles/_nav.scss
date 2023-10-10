@@ -1,15 +1,3 @@
-// <nav class="bar">
-// <h3 class="bar__logo"><a href="#home">
-//     BHROMAON
-// </a></h3>
-// <ul class="bar__ul">
-//     <li class="bar__li"><a href="#">Who We Are</a></li>
-//     <li class="bar__li"><a href="#">What We Do</a></li>
-//     <li class="bar__li"><a href="#">Travel With Us</a></li>
-//     <li class="bar__li"><a href="#">Contact Us</a></li>
-// </ul>
-// </nav>
-
 .bar{
     display: flex;
     align-items: baseline;
@@ -48,4 +36,5 @@
 }
 a{
     text-decoration: none;
+    color: #FFF;
 }
