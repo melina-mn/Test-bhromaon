@@ -176,3 +176,75 @@ svg{
         }
     }
 }
+
+// SEC FOUR 
+.four{
+    max-width: 1770px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: url(../images/Rectangle\ 41445.png);
+    
+    &__box{
+        background-color: #232323;
+        opacity: 0.9;
+        width: 543px;
+        height: 374px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        padding-left: 2%;
+        margin-right: 10%;
+    }
+    &__spain{
+        color: #E8E8E8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 130% */
+        letter-spacing: 1.5px;
+    }
+    &__title{
+        color: #FFF;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 130% */
+        text-transform: uppercase;
+    }
+    &__prgh{
+        max-width: 508px;
+        width: 100%;
+        color: #E8E8E8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    &__btn{
+        color: #FFF;
+        font-family: 'Aleo', serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        width: 228px;
+        height: 63px;
+        background-color: rgb(84, 116, 253,);
+        opacity: 1;
+        margin-bottom: 20px;
+        cursor: pointer;
+        &:hover{
+            color: #293b8c;
+            letter-spacing: 5px;
+        }
+    }
+}
