@@ -772,6 +772,17 @@ svg {
           box-shadow: 0 4px 0 0 white;
 }
 
+@media screen and (max-width: 320px) {
+  .end {
+    width: 100%;
+  }
+  .end__title {
+    font-size: 15px;
+  }
+  .end__txt {
+    font-size: 13px;
+  }
+}
 .landing {
   background-image: url(../images/image\ 1.png);
   max-width: 1770px;
