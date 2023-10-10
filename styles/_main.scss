@@ -49,6 +49,9 @@
             color: #293b8c;
             letter-spacing: 5px;
         }
+        &:focus{
+            background-color: #293b8c;
+        }
     }
 
     &__img{
@@ -169,13 +172,15 @@ svg{
         text-transform: uppercase;
         width: 228px;
         height: 63px;
-        background-color: #5474fd;
-        opacity: 1;
+        background-color: rgb(84, 116, 253, 1);
         margin-bottom: 20px;
         cursor: pointer;
         &:hover{
             color: #293b8c;
             letter-spacing: 5px;
+        }
+        &:focus{
+            background-color: #293b8c;
         }
     }
 }
@@ -248,6 +253,9 @@ svg{
         &:hover{
             color: #293b8c;
             letter-spacing: 5px;
+        }
+        &:focus{
+            background-color: #293b8c;
         }
     }
 }
