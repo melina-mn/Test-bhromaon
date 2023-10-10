@@ -526,6 +526,41 @@ svg {
   background-color: #293b8c;
 }
 
+@media screen and (max-width: 768px) {
+  .four {
+    width: 100%;
+  }
+  .four__title {
+    font-size: 18px;
+  }
+  .four__btn {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .four {
+    width: 100%;
+  }
+  .four__box {
+    width: 210px;
+  }
+  .four__title {
+    font-size: 14px;
+  }
+  .four__spain {
+    font-size: 12px;
+  }
+  .four__prgh {
+    font-size: 13px;
+  }
+  .four__btn {
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
 .five {
   background: url(../images/Rectangle\ 4142\ 1.png);
   display: -ms-grid;
