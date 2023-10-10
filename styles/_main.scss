@@ -94,6 +94,9 @@
         line-height: 26px; /* 72.222% */
     }
 }
+.fa-magnifying-glass, .fa-circle-check, .fa-thumbs-up{
+    cursor: pointer;
+}
 svg{
     max-width: 1773px;
     min-height: 99px;

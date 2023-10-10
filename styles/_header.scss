@@ -88,3 +88,8 @@
 .fa-magnifying-glass{
     margin-left: 5px;
 }
+.fa-chevron-down:hover{
+ transform: translateY(-4px);
+ transition:0.3s;
+ animation-play-state: paused;
+}

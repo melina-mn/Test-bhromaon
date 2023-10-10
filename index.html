@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f594942deb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
     <title>BHROMAON</title>
@@ -27,22 +28,22 @@
         </form>
         <div class="landing__bottom">
             <h5 class="landing__txt">Scroll Down</h5>
-            <a href="#"><i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i></a>
+            <a href="#nav"><i class="fa-solid fa-chevron-down animate__animated animate__pulse animate__infinite" style="color: #ffffff;"></i></a>
         </div>
     </header>
     <nav class="bar">
-        <h3 class="bar__logo"><a href="#home">
+        <h3 class="bar__logo" id="nav"><a href="#home">
             BHROMAON
         </a></h3>
         <ul class="bar__ul">
-            <li class="bar__li"><a href="#">Who We Are</a></li>
-            <li class="bar__li"><a href="#">What We Do</a></li>
-            <li class="bar__li"><a href="#">Travel With Us</a></li>
-            <li class="bar__li"><a href="#">Contact Us</a></li>
+            <li class="bar__li"><a href="#about-us">Who We Are</a></li>
+            <li class="bar__li"><a href="#travel">What We Do</a></li>
+            <li class="bar__li"><a href="#traveller">Travel With Us</a></li>
+            <li class="bar__li"><a href="#Contact">Contact Us</a></li>
         </ul>
     </nav>
     <main>
-        <section class="one">
+        <section class="one" id="about-us">
             <div class="one__left">
                 <h1 class="one__title">
                     Why Choose Us
@@ -75,7 +76,8 @@
                 </div>
             </div>
         </section>
-        <section class="two">
+
+        <section class="two" id="travel">
             <svg xmlns="http://www.w3.org/2000/svg" width="777" height="95" viewBox="0 0 777 95" fill="none">
                 <g opacity="0.5">
                   <mask id="path-1-inside-1_0_46" fill="white">
@@ -86,11 +88,12 @@
                 </g>
               </svg>
             <div class="two__icon">
-                <i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #5474fd;"><p class="two__txt">Search Places</p></i>
-                <i class="fa-regular fa-circle-check fa-2xl" style="color: #ff6363;"><p class="two__txt">Select Places</p></i>
-                <i class="fa-regular fa-thumbs-up fa-2xl" style="color: #00a2ff;"><p class="two__txt">Book & Enjoy</p></i>
+                <i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #5474fd;"><a href="#"><p class="two__txt">Search Places</p></a></i>
+                <i class="fa-regular fa-circle-check fa-2xl" style="color: #ff6363;"><a href="#"><p class="two__txt">Select Places</p></a></i>
+                <i class="fa-regular fa-thumbs-up fa-2xl" style="color: #00a2ff;"><a href="#"><p class="two__txt">Book & Enjoy</p></a></i>
             </div>
         </section>
+        
         <section class="three">
             <div class="three__box">
                 <h4 class="three__spain">
@@ -137,7 +140,7 @@
                 </button>
             </div>
         </section>
-        <section class="five">
+        <section class="five" id="traveller">
             <h2 class="five__title">
                     What Our  Tourist Say
             </h2>
@@ -167,5 +170,20 @@
             </div>
         </section>
     </main>
+    <footer class="end" id="Contact">
+        <h5 class="end__title">
+            Bhromaon
+        </h5>
+        <p class="end__txt">
+            Safe Travel Anywhere
+        </p>
+        <div class="end__icon">
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"><a href="#"></a></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"><a href="#"></a></i>
+            <i class="fa-brands fa-linkedin-in" style="color: #5474fb;"><a href="#"></a></i>
+            <i class="fa-brands fa-youtube" style="color: #ffffff;"><a href="#"></a></i>
+            <i class="fa-brands fa-pinterest" style="color: #ffffff;"><a href="#"></a></i>
+        </div>
+    </footer>
 </body>
 </html>
